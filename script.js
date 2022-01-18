@@ -110,4 +110,5 @@ submitbtn.addEventListener('click', () => {
     paragraphName.innerText = `${form[index]} ${sessionStorage.getItem(`form${index + 2}`)}`;
     mainForm.appendChild(paragraphName);
   }
+  sessionStorage.clear();
 });
